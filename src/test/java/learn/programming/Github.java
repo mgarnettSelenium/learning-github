@@ -3,12 +3,11 @@ package learn.programming;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 
 public class Github {
 	public static WebDriver driver;
 	
-	public static int a = 0;
+	//public static int a = 0;
 	
 	
 	public static void main(String[] args) {
@@ -19,7 +18,7 @@ public class Github {
 		WebElement fake_button = driver.findElement(By.cssSelector("#Pokie"));
 		WebElement fake_amount = driver.findElement(By.cssSelector("#Amount"));
 		
-		int b = 10;
+		//int b = 10;
 
 		while  (0 < 5) { //(a < b)
 			System.out.println("I am iterating ");
@@ -37,8 +36,8 @@ public class Github {
 			
 		} while (true); 
 		
-		Actions action = new Actions(driver);
-		action.clickAndHold(target)
+		//Actions action = new Actions(driver);
+		//action.clickAndHold(target);
 		
 	}
 
